@@ -1,0 +1,16 @@
+p, ul, h1 { color : green; 
+    width: 500px;
+    border: 2px solid black;
+}
+
+#paragrafo1{
+    color: rgb(22, 145, 228);
+}
+
+.item-class{
+    color: gray;
+}
+
+img[alt]{
+    border: 10px solid black;
+}
