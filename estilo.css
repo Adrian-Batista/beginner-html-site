@@ -1,14 +1,26 @@
-html{
+html{ /* selecionando todos os elementos do projeto! */
     font: 2em Odibee Sans;
 }
 
-p, ul, h1 { color : green; 
-    width: 500px;
-    border: 2px solid black;
+body{
+    width: 80%;
+    margin: 2% auto;
+    background-color: rgb(156, 238, 156); /* coloração da página! */
+    padding: 0px 20px 20px 20px;
+    border: 5px solid rgb(0, 0, 0);
+
+}
+
+p, ul, h1 { color : green; /* se for mais de um item separar por vírgula! */
+    width: 80%;
+    text-align: center;
+    /*border: 2px solid black;*/
 }
 
 #paragrafo1{
     color: rgb(22, 145, 228);
+    text-align: center; /* alinhamento do texto selecionado! */
+    letter-spacing: 10px; /* distanciamento das letras da frase! */
 }
 
 .item-class{
@@ -16,9 +28,13 @@ p, ul, h1 { color : green;
 }
 
 img[alt]{
-    border: 10px solid black;
+    border: 10px solid black; /* ALT passado por parâmetro para limitar o item selecionado! */
 }
 
 img:hover[alt]{
-    border: 10px solid green;
+    border: 10px solid green; /* HOVER quando passar mouse em cima do elemento selecionado! */
+}
+
+video{
+    width: 50%; /* Porcentagem melhora a dimensão dos componentes sendo melhor para multiplataforma! */ 
 }
