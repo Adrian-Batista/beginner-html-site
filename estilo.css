@@ -14,3 +14,7 @@ p, ul, h1 { color : green;
 img[alt]{
     border: 10px solid black;
 }
+
+img:hover[alt]{
+    border: 10px solid green;
+}
