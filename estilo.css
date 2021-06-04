@@ -1,3 +1,7 @@
+html{
+    font: 2em Odibee Sans;
+}
+
 p, ul, h1 { color : green; 
     width: 500px;
     border: 2px solid black;
